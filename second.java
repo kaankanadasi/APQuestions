@@ -21,7 +21,8 @@ public class WordScrambler {
         int half2 = word2.length/2;
         String substring2 = word2.substring(half2);
         
-        return (substring1 + substring2);
+        String concat = substring1 + substring2;
+        return concat;
     }
 
     /*
