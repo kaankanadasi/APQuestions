@@ -38,8 +38,8 @@ public class Stats {
             if(score == scoreList.get(i).getScore()) {
                 s1.increment(); 
             } else {
-            scoreList.add(s1);
-            check = true;
+                scoreList.add(s1);
+                check = true;
             }
         }
     
@@ -65,6 +65,3 @@ public class Stats {
         }
     }
 }
-
-
-
